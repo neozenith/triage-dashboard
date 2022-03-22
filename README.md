@@ -15,7 +15,7 @@ For my own purposes:
 poetry install
 poetry shell
 invoke --list
-invoke --list
+
 Available tasks:
 
   all         Outer development loop.
@@ -50,6 +50,8 @@ Get a better mental model for triage and response times and turn around through 
     - Rank by emoji reaction upvotes
     - Rank by time since last comment
     - Filter by "whose court the ball is in", eg unlabelled, unassigned, no milestone, pending tests label, requires documentation label, is a maintainer the last to have comment, is it stale?
+ - Figure out how to do Change Data Capture instead of full history fetch
+ - Is there a way to fetch from the API via date range?
 
 
 
